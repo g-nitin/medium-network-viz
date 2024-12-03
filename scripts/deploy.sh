@@ -13,5 +13,3 @@ git commit -m 'deploy'
 
 # Push to gh-pages branch
 git push -f git@github.com:g-nitin/medium-network-viz.git master:gh-pages
-
-cd -

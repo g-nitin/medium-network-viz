@@ -8,5 +8,20 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
+    rollupOptions: {
+      external: ['@emotion/react/jsx-runtime'],
+    }
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
+  optimizeDeps: {
+    include: ['@emotion/react', '@emotion/styled', '@mui/material', '@mui/icons-material'],
+  },
+  server: {
+    port: 3000,
+    open: true,
   },
 });

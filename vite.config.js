@@ -9,13 +9,4 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
   },
-  server: {
-    port: 3000,
-    open: true,
-  },
-  resolve: {
-    alias: {
-      '@': '/src',
-    },
-  },
 });

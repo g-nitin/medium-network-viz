@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "Towards Data Science",
+      "name": "Towards Data Science",
+      "articleCount": 2689,
+      "avgClaps": 213.98,
+      "avgResponses": 1.69,
+      "avgReadingTime": 8.01
+    },
+    {
+      "id": "UX Collective",
+      "name": "UX Collective",
+      "articleCount": 915,
+      "avgClaps": 374.59,
+      "avgResponses": 2.67,
+      "avgReadingTime": 6.61
+    },
+    {
+      "id": "The Startup",
+      "name": "The Startup",
+      "articleCount": 3562,
+      "avgClaps": 376.82,
+      "avgResponses": 3.61,
+      "avgReadingTime": 5.86
+    },
+    {
+      "id": "The Writing Cooperative",
+      "name": "The Writing Cooperative",
+      "articleCount": 792,
+      "avgClaps": 449.39,
+      "avgResponses": 5.17,
+      "avgReadingTime": 5.27
+    },
+    {
+      "id": "Data Driven Investor",
+      "name": "Data Driven Investor",
+      "articleCount": 778,
+      "avgClaps": 95.03,
+      "avgResponses": 0.37,
+      "avgReadingTime": 5.22
+    },
+    {
+      "id": "Better Marketing",
+      "name": "Better Marketing",
+      "articleCount": 242,
+      "avgClaps": 829.35,
+      "avgResponses": 4.62,
+      "avgReadingTime": 6.41
+    },
+    {
+      "id": "Better Humans",
+      "name": "Better Humans",
+      "articleCount": 28,
+      "avgClaps": 1827.79,
+      "avgResponses": 8.54,
+      "avgReadingTime": 13.36
+    }
+  ],
+  "links": [
+    {
+      "source": "Towards Data Science",
+      "target": "UX Collective",
+      "commonDates": 118,
+      "weight": 0.9833333333333333
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "The Startup",
+      "commonDates": 119,
+      "weight": 0.9916666666666667
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "The Writing Cooperative",
+      "commonDates": 119,
+      "weight": 0.9916666666666667
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "Data Driven Investor",
+      "commonDates": 50,
+      "weight": 0.4166666666666667
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "Better Marketing",
+      "commonDates": 35,
+      "weight": 0.2916666666666667
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "Better Humans",
+      "commonDates": 25,
+      "weight": 0.20833333333333334
+    },
+    {
+      "source": "UX Collective",
+      "target": "The Startup",
+      "commonDates": 119,
+      "weight": 0.9916666666666667
+    },
+    {
+      "source": "UX Collective",
+      "target": "The Writing Cooperative",
+      "commonDates": 119,
+      "weight": 0.9916666666666667
+    },
+    {
+      "source": "UX Collective",
+      "target": "Data Driven Investor",
+      "commonDates": 50,
+      "weight": 0.4166666666666667
+    },
+    {
+      "source": "UX Collective",
+      "target": "Better Marketing",
+      "commonDates": 35,
+      "weight": 0.2916666666666667
+    },
+    {
+      "source": "UX Collective",
+      "target": "Better Humans",
+      "commonDates": 25,
+      "weight": 0.20833333333333334
+    },
+    {
+      "source": "The Startup",
+      "target": "The Writing Cooperative",
+      "commonDates": 120,
+      "weight": 1.0
+    },
+    {
+      "source": "The Startup",
+      "target": "Data Driven Investor",
+      "commonDates": 50,
+      "weight": 0.4166666666666667
+    },
+    {
+      "source": "The Startup",
+      "target": "Better Marketing",
+      "commonDates": 35,
+      "weight": 0.2916666666666667
+    },
+    {
+      "source": "The Startup",
+      "target": "Better Humans",
+      "commonDates": 25,
+      "weight": 0.20833333333333334
+    },
+    {
+      "source": "The Writing Cooperative",
+      "target": "Data Driven Investor",
+      "commonDates": 50,
+      "weight": 0.4166666666666667
+    },
+    {
+      "source": "The Writing Cooperative",
+      "target": "Better Marketing",
+      "commonDates": 35,
+      "weight": 0.2916666666666667
+    },
+    {
+      "source": "The Writing Cooperative",
+      "target": "Better Humans",
+      "commonDates": 25,
+      "weight": 0.20833333333333334
+    },
+    {
+      "source": "Data Driven Investor",
+      "target": "Better Marketing",
+      "commonDates": 35,
+      "weight": 0.2916666666666667
+    },
+    {
+      "source": "Data Driven Investor",
+      "target": "Better Humans",
+      "commonDates": 25,
+      "weight": 0.20833333333333334
+    },
+    {
+      "source": "Better Marketing",
+      "target": "Better Humans",
+      "commonDates": 19,
+      "weight": 0.15833333333333333
+    }
+  ]
+}

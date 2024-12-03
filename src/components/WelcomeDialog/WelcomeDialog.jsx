@@ -36,9 +36,6 @@ const WelcomeDialog = ({ open, onClose }) => {  // Modified to accept props
   useEffect(() => {
     // Check if the dialog has been shown before
     const hasSeenDialog = localStorage.getItem('hasSeenWelcomeDialog');
-    if (!hasSeenDialog) {
-      setOpen(true);
-    }
   }, []);
 
   const InteractionGuide = () => (

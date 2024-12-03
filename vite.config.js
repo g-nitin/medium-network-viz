@@ -21,7 +21,7 @@ export default defineConfig({
     include: ['@emotion/react', '@emotion/styled', '@mui/material', '@mui/icons-material'],
   },
   server: {
-    port: 3000,
+    port: 5173,
     open: true,
   },
 });

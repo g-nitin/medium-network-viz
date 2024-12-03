@@ -1,4 +1,3 @@
-```markdown
 # Medium Publication Networks Visualization
 
 An interactive visualization of content relationships across Medium's digital ecosystem.

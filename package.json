@@ -1,6 +1,6 @@
 {
   "name": "medium-network-viz",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "homepage": "https://g-nitin.github.io/medium-network-viz",
   "type": "module",

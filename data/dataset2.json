@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "Towards Data Science",
+      "name": "Towards Data Science",
+      "articleCount": 1228,
+      "avgClaps": 131.12,
+      "avgResponses": 1.63,
+      "avgReadingTime": 8.89
+    },
+    {
+      "id": "UX Collective",
+      "name": "UX Collective",
+      "articleCount": 360,
+      "avgClaps": 364.83,
+      "avgResponses": 4.51,
+      "avgReadingTime": 7.5
+    },
+    {
+      "id": "The Startup",
+      "name": "The Startup",
+      "articleCount": 521,
+      "avgClaps": 805.36,
+      "avgResponses": 14.2,
+      "avgReadingTime": 5.56
+    },
+    {
+      "id": "The Writing Cooperative",
+      "name": "The Writing Cooperative",
+      "articleCount": 389,
+      "avgClaps": 528.79,
+      "avgResponses": 7.25,
+      "avgReadingTime": 5.59
+    }
+  ],
+  "links": [
+    {
+      "source": "Towards Data Science",
+      "target": "UX Collective",
+      "commonDates": 68,
+      "weight": 0.9714285714285714
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "The Startup",
+      "commonDates": 69,
+      "weight": 0.9857142857142858
+    },
+    {
+      "source": "Towards Data Science",
+      "target": "The Writing Cooperative",
+      "commonDates": 69,
+      "weight": 0.9857142857142858
+    },
+    {
+      "source": "UX Collective",
+      "target": "The Startup",
+      "commonDates": 69,
+      "weight": 0.9857142857142858
+    },
+    {
+      "source": "UX Collective",
+      "target": "The Writing Cooperative",
+      "commonDates": 69,
+      "weight": 0.9857142857142858
+    },
+    {
+      "source": "The Startup",
+      "target": "The Writing Cooperative",
+      "commonDates": 70,
+      "weight": 1.0
+    }
+  ]
+}

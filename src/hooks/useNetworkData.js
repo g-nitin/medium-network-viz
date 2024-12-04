@@ -9,7 +9,10 @@ export const useNetworkData = (selectedDataset) => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`scripts/data/processed/${selectedDataset}.json`);
+        // Update the path to use the correct public URL
+        const basePath = import.meta.env.BASE_URL || '/';
+        const response = await fetch(`${basePath}data/${selectedDataset}.json`);
+        
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

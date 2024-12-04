@@ -92,10 +92,10 @@ def create_network_data(df, metrics):
 
 def main():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    cwd = os.getcwd()
+    project_root = os.path.dirname(dir_path)
     
-    # Create output directory
-    output_dir = Path(f'{dir_path}/data/processed')
+    # Update output directory to public/data
+    output_dir = Path(f'{project_root}/public/data')
     output_dir.mkdir(parents=True, exist_ok=True)
     
     try:

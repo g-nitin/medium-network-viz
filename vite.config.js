@@ -9,6 +9,9 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
       external: ['@emotion/react/jsx-runtime'],
     }
   },
@@ -21,7 +24,7 @@ export default defineConfig({
     include: ['@emotion/react', '@emotion/styled', '@mui/material', '@mui/icons-material'],
   },
   server: {
-    port: 5173,
+    port: 3000,
     open: true,
   },
 });

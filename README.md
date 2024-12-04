@@ -1,7 +1,5 @@
 # Medium Publication Networks Visualization
 
-An interactive visualization of content relationships across Medium's digital ecosystem.
-
 ## Features
 
 - Interactive force-directed network graph
@@ -45,3 +43,7 @@ npm run deploy
 
 - Dataset 1: [Medium Articles Dataset](https://www.kaggle.com/datasets/dorianlazar/medium-articles-dataset)
 - Dataset 2: [Medium Tech/ML Articles Dataset](https://www.kaggle.com/datasets/arnabchaki/medium-articles-dataset)
+
+## License
+
+[MIT](./LICENSE)
